@@ -1,0 +1,7 @@
+"0",""
+"0","imp_pr2<-mean(result2$Estimates[07]*price)+mean(result2$Estimates[08]*(price/lakedist))"
+"0","print(paste0(""Marginal WTP for lake access= "",imp_pr2))"
+"1","[1]"
+"1"," ""Marginal WTP for lake access= -272.302060797607"""
+"1","
+"

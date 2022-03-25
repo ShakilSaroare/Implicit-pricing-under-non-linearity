@@ -1,0 +1,7 @@
+"0","lakedist<- ifelse(lakedist<=1, 1, lakedist)"
+"0",""
+"0","log.lakedist<- log(lakedist)"
+"0",""
+"0","x1<-as.matrix(cbind(intercept,living_area,baths,age,fireplace,garage_area,condA,condB,condC,lakedist,dat[""log.lakedist""]))"
+"2","Error in `[.data.frame`(dat, ""log.lakedist"") : undefined columns selected
+"

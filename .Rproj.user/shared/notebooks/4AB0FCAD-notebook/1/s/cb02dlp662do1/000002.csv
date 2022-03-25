@@ -1,0 +1,6 @@
+"0","x3<-as.matrix(cbind(intercept,living_area,baths,age,fireplace,garage_area,condA,condB,condC,lakedist,"
+"0","                    log.lakedist,median_commute))"
+"0","y<-lprice"
+"0",""
+"0","result3<- ols_summary(x3, y)"
+"0","result3"

@@ -1,0 +1,7 @@
+"0",""
+"0","imp_pr4<-mean(result4$Estimates[10]*price)+mean(result4$Estimates[11]*(price/lakedist))"
+"0","print(paste0(""Implicit price for lake access= "",imp_pr4))"
+"1","[1]"
+"1"," ""Implicit price for lake access= -318.003404896892"""
+"1","
+"

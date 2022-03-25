@@ -1,0 +1,7 @@
+"0","x4<-as.matrix(cbind(intercept,living_area,baths,age,fireplace,garage_area,condA,condB,condC,lakedist,log.lakedist,"
+"0","                    median_commute,zone1,zone2,zone3,zone4,zone5,zone6,zone7,zone8,zone9,zone10,zone11,zone12,zone13,"
+"0","                    zone14,zone15,zone16,zone17,zone18))"
+"0","y<-lprice"
+"0",""
+"0","result4<- ols_summary(x4, y)"
+"0","result4"

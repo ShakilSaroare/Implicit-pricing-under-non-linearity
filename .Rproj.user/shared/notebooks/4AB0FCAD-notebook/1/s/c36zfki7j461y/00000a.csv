@@ -1,0 +1,4 @@
+"0",""
+"0","imp_pr<-result$Estimates[2]*price"
+"0","options(repr.plot.width=4,repr.plot.height=4)"
+"0","hist(imp_pr,main=""Implicit Price Distribution"",xlab=""Implicit Price for living area"")"

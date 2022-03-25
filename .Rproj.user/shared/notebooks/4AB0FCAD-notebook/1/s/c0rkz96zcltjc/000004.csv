@@ -1,0 +1,62 @@
+"0","dat<-read.csv(""wake_exercise.csv"",header=T, fileEncoding=""UTF-8-BOM"")"
+"0","attach(dat)"
+"2","The following object is masked _by_ .GlobalEnv:
+
+    lakedist
+
+"
+"2","The following objects are masked from dat (pos = 3):
+
+    acres, age, baths, census_blkgrp, census_trk, condA, condB, condC,
+    fireplace, garage_area, lakedist, living_area, lkdist, lprice,
+    median_commute, median_value, price, year98, year99, zone1, zone10,
+    zone11, zone12, zone13, zone14, zone15, zone16, zone17, zone18,
+    zone2, zone3, zone4, zone5, zone6, zone7, zone8, zone9
+
+"
+"0","d<-dat[,c(""living_area"",""baths"",""age"",""fireplace"",""garage_area"",""lakedist"")]"
+"0","funs <- list(Max = max, Mean = mean, Min = min, Std_dev = sd)"
+"0","sapply(funs, function(x) sapply(d, x))"
+"1","           "
+"1","        Max"
+"1","         Mean"
+"1"," Min"
+"1","     Std_dev"
+"1","
+living_area"
+"1"," 5349.00000"
+"1"," 1914.4288585"
+"1"," 560"
+"1"," 681.5401970"
+"1","
+baths      "
+"1","    7.00000"
+"1","    2.4623103"
+"1","   1"
+"1","   0.6789259"
+"1","
+age        "
+"1","   98.00000"
+"1","   11.3658964"
+"1","   0"
+"1","  15.0582137"
+"1","
+fireplace  "
+"1","    1.00000"
+"1","    0.8963083"
+"1","   0"
+"1","   0.3048641"
+"1","
+garage_area"
+"1"," 1724.00000"
+"1","  289.6319654"
+"1","   0"
+"1"," 248.8732539"
+"1","
+lakedist   "
+"1","   67.44534"
+"1","   17.1906924"
+"1","   0"
+"1","  11.7879289"
+"1","
+"

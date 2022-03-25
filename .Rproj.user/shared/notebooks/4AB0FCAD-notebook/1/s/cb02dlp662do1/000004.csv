@@ -1,0 +1,7 @@
+"0",""
+"0","imp_pr3<-mean(result3$Estimates[10]*price)+mean(result3$Estimates[11]*(price/lakedist))"
+"0","print(paste0(""Implicit price for lake access= "",imp_pr3))"
+"1","[1]"
+"1"," ""Implicit price for lake access= -225.203875385696"""
+"1","
+"

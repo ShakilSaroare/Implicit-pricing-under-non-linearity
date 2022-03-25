@@ -1,0 +1,28 @@
+{
+    "id": "174BFDD4",
+    "path": "E:/Rstudio/Implicit-pricing-under-non-linearity/notebook.Rmd",
+    "project_path": "notebook.Rmd",
+    "type": "r_markdown",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1648178136713.0,
+    "source_on_save": false,
+    "relative_order": 2,
+    "properties": {
+        "tempName": "Untitled2",
+        "chunk_output_type": "inline",
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "60,43",
+        "scrollLine": "58"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1648185071,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1648185071344,
+    "read_only": false,
+    "read_only_alternatives": []
+}

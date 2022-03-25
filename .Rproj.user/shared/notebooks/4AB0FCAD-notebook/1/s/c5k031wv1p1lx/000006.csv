@@ -1,0 +1,5 @@
+"0","x2<-as.matrix(cbind(intercept,living_area,baths,age,fireplace,garage_area,lakedist,log.lakedist))"
+"0","y<-lprice"
+"0",""
+"0","result2<- ols_summary(x2, y)"
+"0","result2"
